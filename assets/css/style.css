@@ -106,3 +106,36 @@ div {
     width: 100%;
     height: 100%;
 }
+
+/* animation de notre texte d'accueil */
+#texte1{
+    animation: ease texte1 10s;
+    color: black;
+    font-weight: bolder;
+}
+@keyframes texte1{
+    0%{
+        opacity: 0;
+        transform:translateY(180px);
+    }
+    100%{
+        opacity: 1 ;
+        transform:translateY(0px);
+    }
+}
+
+#texte2{
+    animation: ease texte2 15s;
+    color: black;
+    font-weight: bolder;
+}
+@keyframes texte2{
+    0%{
+        opacity: 0;
+        transform:translateY(180px);
+    }
+    100%{
+        opacity: 1 ;
+        transform:translateY(0px);
+    }
+}
