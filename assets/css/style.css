@@ -139,3 +139,10 @@ div {
         transform:translateY(0px);
     }
 }
+
+.nature img{
+    height: 450px;
+}
+.btn-close{
+    margin-left: 75% !important;
+}
